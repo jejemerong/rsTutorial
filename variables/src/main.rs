@@ -5,7 +5,7 @@ fn main() {
     // x = 6;
     // println!("The value of x is: {x}");
 
-    // shadowing 과 mut 의 차이점!
+    // shadowing 과 mut 의 차이점! => 
     let x = 5;
     let x = x + 1;
     {
