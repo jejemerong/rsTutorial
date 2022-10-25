@@ -13,7 +13,7 @@ fn main() {
     //     println!("The value of x in the inner scope is: {x}");
     // }
     // println!("The value of x is {x}");
-
+    
     // TODO: t와 f 에 _ 붙이는 이유!
     // if this is intentional, prefix it with an underscore: `_f`
     // let _t:bool = true;
@@ -49,6 +49,5 @@ fn main() {
 
     println!("The value of element is: {}", element);
 
-    
 
 }
