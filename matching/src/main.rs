@@ -3,6 +3,34 @@
         V6,
     }
 
+    enum Coin {
+    Penny,
+    Nickel,
+    Dime,
+    Quarter,
+}
+
+#[derive(Debug)] // So we can inspect the state in a minute
+enum UsState {
+    Alabama,
+    Alaska,
+    // ... etc
+}
+
+fn value_in_cents(coin: Coin) -> u32 {
+    
+    match coin {
+        Coin::Penny => {
+            println!("Lucky penny!");
+            1
+        },
+        Coin::Nickel => 5,
+        Coin::Dime => 10,
+        Coin::Quarter => 25,
+    }
+}
+
+
     struct IpAddr {
         kind: IpAddrKind,
         address: String,
